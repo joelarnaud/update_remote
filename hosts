@@ -1,0 +1,12 @@
+[web]
+target1 ansible_host=172.17.0.2 ansible_ssh_user=root ansible_ssh_pass=school1
+target2 ansible_host=172.17.0.3 ansible_ssh_user=root ansible_ssh_pass=school1
+target3 ansible_host=172.17.0.4 ansible_ssh_user=root ansible_ssh_pass=school1
+
+[vm]
+192.168.0.65
+192.168.0.62
+[stubs]
+192.168.0.61
+[update]
+3.96.160.7
